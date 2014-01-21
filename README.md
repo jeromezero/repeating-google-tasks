@@ -17,11 +17,11 @@ This script also allows you to have recurring tasks. That's right. You can repea
 
 This is handled by placing a comment in the 'notes' field of your task (in Google Tasks, of course). Syntax is important, but simple. 
 
-> enclose in html comment brackets the desired repeat interval:
-	<!-- repeats -->
-	<!-- every n day(s) -->
-	<!-- weekly -->
-	<!-- monthly -->
+enclose in html comment brackets the desired repeat interval:     
+> 	<!-- repeats -->     
+	<!-- every X day(s) -->     
+	<!-- weekly -->     
+	<!-- monthly -->     
 
 The script will record the details of the completed task, clear out the Google Task list, and repopulate it with any repeating tasks. The 'Notes' field of a recurring task will have that same comment so that the repeat interval perpetuates. Other notes will be logged to the spreadsheet, but not returned to the task list. You could, for instance, place a confirmation number for a monthly bill payment into the notes field in order to log it. If you take a weekly run, you could log the distance. 
 
