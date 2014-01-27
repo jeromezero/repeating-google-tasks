@@ -1,8 +1,10 @@
 # log-repeat_google-tasks
 
-This script works with a Google spreadsheet. Set up to run on a timed interval, it will poll a specific task list in Google tasks. Any time a task has been completed (but not cleared), the script will log that task to a spreadsheet in your Google Drive account (and then clear them from the Task list).
+This script does two wonderful things with Google tasks: it lets you set recurring or repeating tasks; and it keeps a detailed log of all tasks you have completed.
 
-I've set up a template <a href="https://docs.google.com/a/caligopress.com/spreadsheet/ccc?key=0AsEQKh2UPI-YdGVMbHFDVzRvdG5YVEhHX2JZY0Y3cGc&usp=drive_web#gid=3" target="_blank">here</a> that includes a handy pivot table.
+This is set up to run out of a Google spreadsheet. (Without too much trouble, it could be adjusted to work as a standalone web application, but for now, host it in a spreadsheet.) Set up to run on a timed interval, it will poll a specific task list in Google tasks. Any time a task has been completed (but not cleared), the script will log that task to a spreadsheet in your Google Drive account (and then clear them from the Task list).
+
+I've set up an example sheet <a href="https://docs.google.com/a/caligopress.com/spreadsheet/ccc?key=0AsEQKh2UPI-YdGVMbHFDVzRvdG5YVEhHX2JZY0Y3cGc&usp=drive_web#gid=3" target="_blank">here</a> that includes a handy pivot table.
 
 The spreadsheet will record several details of each completed task:
 
