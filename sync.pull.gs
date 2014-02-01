@@ -2,10 +2,10 @@ function pull() {
 
 // set spreadsheet  
  var ss = SpreadsheetApp.getActiveSpreadsheet();
- var sheet = ss.getSheetByName("tasklog"); 
+ var sheet = ss.getSheetByName("THE NAME OF YOUR SHEET GOES HERE"); 
 
 // select TASKS app task list by title  
-  var title = "ENTER THE NAME OF YOUR GOOGLE TASK LIST HERE";
+  var title = "THE NAME OF YOUR TASK LIST GOES HERE";
   var allLists = Tasks.Tasklists.list().getItems();
   var id;
   for (var i in allLists) {
