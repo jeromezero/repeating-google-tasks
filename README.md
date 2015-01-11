@@ -1,4 +1,4 @@
-# log-repeat_google-tasks
+# log and repeat google tasks
 
 This script does two wonderful things with Google tasks: it lets you set recurring or repeating tasks; and it keeps a detailed log of all tasks you have completed.
 
